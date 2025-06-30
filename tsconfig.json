@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // see: https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping#node-22
+    "target": "es2023",
+    "lib": ["ES2023"],
+    "module": "nodenext",
+
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "skipLibCheck": true,
+
+    // region: For Node.js
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    // endregion
+  }
+}

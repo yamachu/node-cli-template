@@ -4,5 +4,9 @@
     "node": ">=22.x"
   },
   "author": "yamachu",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.15.34",
+    "typescript": "5.8.3"
+  }
 }

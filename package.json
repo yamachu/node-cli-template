@@ -6,6 +6,9 @@
   },
   "author": "yamachu",
   "license": "MIT",
+  "scripts": {
+    "run": "node --experimental-transform-types --env-file=.env src/index.ts"
+  },
   "devDependencies": {
     "@types/node": "22.15.34",
     "typescript": "5.8.3"

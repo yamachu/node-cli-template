@@ -1,5 +1,6 @@
 {
   "name": "cli-template",
+  "type": "module",
   "engines": {
     "node": ">=22.x"
   },

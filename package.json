@@ -1,0 +1,8 @@
+{
+  "name": "cli-template",
+  "engines": {
+    "node": ">=22.x"
+  },
+  "author": "yamachu",
+  "license": "MIT"
+}

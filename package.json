@@ -2,7 +2,7 @@
   "name": "cli-template",
   "type": "module",
   "engines": {
-    "node": ">=22.x"
+    "node": ">=22.18"
   },
   "author": "yamachu",
   "license": "MIT",

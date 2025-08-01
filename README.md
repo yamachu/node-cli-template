@@ -2,5 +2,5 @@
 
 ## Requirements
 
-- Node >= 22.x
+- Node >= 22.18
 - TypeScript

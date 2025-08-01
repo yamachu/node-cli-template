@@ -1,7 +1,7 @@
-import { argv, argv0 } from "node:process";
+import { argv, argv0, env } from "node:process";
 import { parseArgs } from "node:util";
 
-console.log(`Hello, ${process.env["MY_ENV_VAR"]}`);
+console.log(`Hello, ${env["MY_ENV_VAR"]}`);
 
 const parsed = parseArgs({
   options: {
